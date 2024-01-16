@@ -30,8 +30,8 @@ header {
 /**Estructura de la info personal **/
 
 aside {
-    background-color: rgb(251, 241, 229);
-    width: 380px;
+    background-color: rgb(255, 247, 238);
+    width: 360px;
     height: 100%;
     display: flex;
     align-items: left;
@@ -43,14 +43,15 @@ aside {
     display: flex;
     text-align: center;
     justify-content: flex-start;
-    padding: 15px;
+    margin: 15px;
+    margin-top: 35px;
 }
 
 .info2{
     display: flex;
     text-align: center;
     justify-content: flex-start;
-    padding: 15px;
+    margin: 15px;
     gap: 10px;
 }
 
@@ -58,21 +59,41 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 15px;
+    margin: 15px;
     gap: 15px;
 }
 
 /**Estructura del Main**/
 
 section{
-     padding: 15px;
-
+    padding-left: 5px;
 }
 
 main{
     display: flex;
     text-align: left;
     justify-content: space-between;
+}
+
+hr{
+    margin: 15px;
+    margin-top: 0rem;
+}
+
+.info4{
+    padding: 15px;
+    padding-top: 0rem;
+}
+
+.info5{
+    color: rgb(132, 132, 132);
+    padding: 20px;
+    padding-top: 0rem;
+}
+
+.subtitulos{
+    padding: 15px;
+    font-weight: bold;
 }
 
 footer {
