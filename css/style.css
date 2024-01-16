@@ -19,19 +19,20 @@ body {
 }
 
 header {
-    background-color: rgb(54, 54, 60);
+    background-color: rgb(45, 45, 51);
     color: white;
-    padding: 35px;
+    padding: 10px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
 
+
 /**Estructura de la info personal **/
 
 aside {
     background-color: rgb(255, 247, 238);
-    width: 360px;
+    width: 380px;
     height: 100%;
     display: flex;
     align-items: left;
